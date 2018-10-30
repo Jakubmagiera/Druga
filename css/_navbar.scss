@@ -1,0 +1,31 @@
+.navbar-fluid {
+    position: fixed;
+    top: 0;
+    background-color: #fff;
+    border-bottom: 1px solid rgb(221, 221, 221);
+
+
+    .navbar {
+        display: flex;
+        height: 5rem;
+        justify-content: space-between;
+        align-items: center;
+
+
+        @include md {
+            height: 6rem;
+
+        }
+
+        >a>img {
+            height: 3rem;
+
+
+            @include md {
+                height: 4rem;
+
+            }
+
+        }
+    }
+}
